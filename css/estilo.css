@@ -1,0 +1,223 @@
+@charset "UTF-8";
+.profileDummy {
+  width: 50px;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+.community {
+  background-color: #fcfcfc;
+  text-align: center;
+  text-transform: none;
+  font-weight: bold;
+  padding: 16px;
+  color: #414141;
+}
+
+.loremComBody {
+  font-size: 1.3rem;
+}
+
+.profileDummyNext {
+  border: none;
+  width: 250px;
+}
+
+/* Estilos generales del footer */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: goldenrod;
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* O ajusta según sea necesario */
+  margin: 0 auto; /* Centra el contenido dentro del ancho máximo */
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+}
+
+.footer-social img {
+  width: 30px; /* Ajusta el tamaño de los íconos de redes sociales según sea necesario */
+  border-radius: 50%; /* Bordes redondeados */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.footer-info p {
+  margin: 0;
+}
+
+.formGeneric {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.formGeneric label {
+  font-weight: bold;
+}
+
+.formGeneric input, .formGeneric textarea, .formGeneric select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.formGeneric button {
+  background-color: goldenrod;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formGeneric button:hover {
+  background-color: #d1a009; /* Darken the color on hover */
+}
+
+.loginSign {
+  margin-bottom: 440px;
+}
+
+.menuNav a {
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 9px;
+  margin-right: 3px;
+}
+.menuNav a:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+.imgLogo {
+  width: 80px;
+}
+
+.encabezado {
+  border-bottom: 5px solid gray;
+  border-top: 10px solid goldenrod;
+  border-radius: 8px;
+}
+
+.btnHonda {
+  background-color: #414141;
+  color: #fafafa;
+  border: none;
+}
+
+.btnHonda:hover {
+  background-color: goldenrod;
+  color: black;
+}
+
+.navHonda {
+  color: #414141;
+  font-size: 1.1rem;
+}
+
+.card {
+  border: none;
+}
+
+.navHonda:hover {
+  color: goldenrod;
+}
+
+.btnStyle {
+  border: none;
+  color: white;
+  background-color: #414141;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.btnStyle:hover {
+  color: black;
+  background-color: goldenrod;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 10fr 8fr 10fr;
+    gap: 150px;
+    grid-template-areas: "redes txt logo";
+    border-top: 4px solid gray;
+  }
+  .red {
+    width: 30px;
+  }
+  .spoonLogoPng {
+    width: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-columns: 10fr 8fr 10fr;
+    gap: 150px;
+    grid-template-areas: "redes txt logo";
+    border-top: 4px solid gray;
+  }
+  .red {
+    width: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 10fr 8fr 10fr;
+    gap: 150px;
+    grid-template-areas: "redes txt logo";
+    border-top: 4px solid gray;
+  }
+  .red {
+    width: 20px;
+  }
+  .spoonLogoPng {
+    width: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .loremComBody {
+    font-size: 0.7rem;
+  }
+}
+/* Estilos para dispositivos más pequeños */
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-social {
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

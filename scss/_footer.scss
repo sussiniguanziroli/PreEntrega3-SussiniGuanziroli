@@ -1,0 +1,42 @@
+/* Estilos generales del footer */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: goldenrod;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* O ajusta según sea necesario */
+    margin: 0 auto; /* Centra el contenido dentro del ancho máximo */
+  }
+  
+  .footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .footer-social a:hover {
+    transform: scale(1.2);
+  }
+  
+  .footer-social img {
+    width: 30px; /* Ajusta el tamaño de los íconos de redes sociales según sea necesario */
+    border-radius: 50%; /* Bordes redondeados */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  }
+  
+  .footer-info p {
+    margin: 0;
+  }
+  
+  

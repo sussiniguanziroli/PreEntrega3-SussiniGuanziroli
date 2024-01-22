@@ -1,0 +1,15 @@
+@mixin navLinkStyle {
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 9px;
+    margin-right: 3px;
+
+    &:hover {
+        background-color: goldenrod;
+        color: white;
+    }
+}
+
+.menuNav a {
+    @include navLinkStyle;
+}

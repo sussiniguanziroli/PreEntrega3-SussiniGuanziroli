@@ -1,0 +1,38 @@
+.formGeneric {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .formGeneric label {
+    font-weight: bold;
+  }
+
+  .formGeneric input, .formGeneric textarea, .formGeneric select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .formGeneric button {
+    background-color: goldenrod;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .formGeneric button:hover {
+    background-color: #d1a009; /* Darken the color on hover */
+}
+
+.loginSign{
+    margin-bottom: 440px;
+}
+

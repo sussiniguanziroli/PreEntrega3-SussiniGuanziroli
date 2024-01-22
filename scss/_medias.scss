@@ -1,0 +1,73 @@
+@media (min-width: 768px){
+    .container{
+        display: grid;
+        grid-template-columns: 10fr 8fr 10fr;
+        gap: 150px;
+        grid-template-areas:
+        "redes txt logo";
+        border-top: 4px solid gray;
+        
+    
+    }
+    .red{
+       width: 30px;
+    }
+    .spoonLogoPng{
+        width: 100px;
+    }
+    
+}
+@media (min-width: 1024px){
+    .container{
+        display: grid;
+        grid-template-columns: 10fr 8fr 10fr;
+        gap: 150px;
+        grid-template-areas:
+        "redes txt logo";
+        border-top: 4px solid gray;
+        
+    
+    }
+    .red{
+        width: 40px;
+    }
+    
+}
+@media (max-width: 768px){
+    .container{
+        display: grid;
+        grid-template-columns: 10fr 8fr 10fr;
+        gap: 150px;
+        grid-template-areas:
+        "redes txt logo";
+        border-top: 4px solid gray;
+        
+    
+    }
+    .red{
+        width: 20px;
+     }
+    .spoonLogoPng{
+        width: 100px;
+    }
+
+}
+@media(max-width: 768px){
+    .loremComBody{
+        font-size: 0.7rem;
+    }
+}
+
+/* Estilos para dispositivos más pequeños */
+@media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-social {
+      margin-bottom: 10px;
+    }
+}
+
+
