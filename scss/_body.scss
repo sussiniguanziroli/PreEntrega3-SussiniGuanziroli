@@ -1,13 +1,13 @@
-.profileDummy{
+.profileDummy {
     width: 50px;
 }
-body{
+
+body {
     background-color: #fbfbfb;
 }
 
 
-
-.community{
+.community {
     background-color: #fcfcfc;
     text-align: center;
     text-transform: none;
@@ -16,12 +16,25 @@ body{
     color: #414141;
 
 }
-.loremComBody{
+
+.loremComBody {
     font-size: 1.3rem;
 }
 
-.profileDummyNext{
+.profileDummyNext {
     border: none;
     width: 250px;
+
+}
+
+.ytEmbed{
+    display: flex;
+    flex-direction:row ;
+}
+.ytEmbed iframe{
+    justify-items: center;
+    margin: 6px;
+    width: 1000px;
+    height: 600px;
 
 }

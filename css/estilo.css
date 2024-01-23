@@ -25,6 +25,18 @@ body {
   width: 250px;
 }
 
+.ytEmbed {
+  display: flex;
+  flex-direction: row;
+}
+
+.ytEmbed iframe {
+  justify-items: center;
+  margin: 6px;
+  width: 1000px;
+  height: 600px;
+}
+
 /* Estilos generales del footer */
 body {
   margin: 0;
@@ -66,12 +78,20 @@ footer {
   margin: 0;
 }
 
+.subfooter {
+  background-color: #2c2c2c; /* Gris oscuro como ejemplo, puedes cambiar este color */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
 .formGeneric {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .formGeneric label {
@@ -123,6 +143,16 @@ footer {
   border-bottom: 5px solid gray;
   border-top: 10px solid goldenrod;
   border-radius: 8px;
+}
+
+.mainNav {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 9px;
+  margin-right: none;
+  padding: 7px;
 }
 
 .btnHonda {

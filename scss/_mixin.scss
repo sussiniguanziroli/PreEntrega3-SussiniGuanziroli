@@ -3,6 +3,7 @@
     border: none;
     border-radius: 9px;
     margin-right: 3px;
+    
 
     &:hover {
         background-color: goldenrod;
@@ -10,6 +11,7 @@
     }
 }
 
-.menuNav a {
+.menuNav a{
     @include navLinkStyle;
 }
+
