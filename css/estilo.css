@@ -124,6 +124,11 @@ footer {
   margin-bottom: 440px;
 }
 
+.profileDummmy {
+  width: 200px;
+  margin-top: 20px;
+}
+
 .menuNav a {
   font-size: 1.4rem;
   border: none;
